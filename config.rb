@@ -2,4 +2,10 @@ PACKAGE_URL = "https://www.dropbox.com/s/j14ga8mahdztaew/jonny5_crawler.tar.gz?d
 KAZOO_DIR = '/opt/kazoo'
 USER = 'kazoo'
 GROUP = 'daemon'
-
+COUCH_HOST = "104.236.80.91"
+COUCH_PORT = "5984"
+CRAWLER_ENABLED = 'true'
+CRAWLER_INTERVAL = '60000'
+DISCONNECT_ACTIVE = 'true'
+INTERACCOUNT_DELAY = '10000'
+DELAYED_HANGUP = 'true'
